@@ -843,7 +843,7 @@ function Education({ sref }) {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))", gap:"1rem" }}>
             {[
               { title:"Hackathon Finalist — Binary Blitz", date:"Apr 2024", desc:"Advanced to the 3rd round among 3,000+ students by contributing to a responsive Event Management Webpage." },
-              { title:"LeetCode — 50+ Problems Solved", date:"Ongoing", desc:"Consistently solving algorithmic and data structure problems on LeetCode, strengthening problem-solving skills across arrays, strings, trees, and dynamic programming." },
+              { title:"LeetCode — 100+ Problems Solved", date:"Ongoing", desc:"Consistently solving algorithmic and data structure problems on LeetCode, strengthening problem-solving skills across arrays, strings, trees, and dynamic programming." },
             ].map((a,i) => (
               <Rev key={a.title} delay={i*100} type="scaleIn">
                 <div className="ach-card" style={{ background:T.surface, border:`1px solid ${T.border}`, borderLeft:`3px solid ${T.gold}`, borderRadius:8, padding:"1.4rem" }}>
